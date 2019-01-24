@@ -1,0 +1,65 @@
+#header {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  border: 1px #000 solid;
+  background-color: #75122b;
+}
+#header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header a {
+  text-decoration: none;
+  width: 85px;
+  height: 35px;
+  color: #fff;
+  text-align: center;
+  border: 2px groove #9a9a9a;
+  transition: all 0.5s;
+}
+nav a:hover {
+  background-color: rgba(0,0,0,0.4);
+  border-color: #fff;
+  font-size: 1.1em;
+  text-shadow: 0px 3px 2px #fcba68;
+}
+#company {
+  display: flex;
+  justify-content: center;
+}
+#menu {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  #menu {
+    display: block;
+    width: 75px;
+    height: 35px;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+  }
+}
+@media screen and (max-width: 500px) {
+  #links {
+    display: none;
+  }
+  #alinks {
+    list-style-type: none;
+  }
+  #alinks button {
+    background-color: rgba(0,0,0,0.4);
+  }
+  #alinks a {
+    color: #fff;
+  }
+}
+#consult {
+  width: 125px;
+  height: 37px;
+  margin: 0px 5px;
+  background-color: rgba(0,0,0,0.4);
+}
+#btnLink {
+  border: none !important;
+}
