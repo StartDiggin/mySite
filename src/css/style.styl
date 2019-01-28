@@ -1,8 +1,14 @@
+@import 'variables.styl';
+
+
+body 
+    background-image: url("../img/lights.jpg");
+
 #header 
     display grid
     grid-template-columns: 2fr 2fr
-    border: 1px #000 solid 
-    background-color: #75122b
+    // border: 1px #000 solid 
+    background-color: headerColor
     nav 
         display flex
         justify-content: center
@@ -58,7 +64,27 @@ nav a:hover
     background-color: rgba(0, 0, 0, 0.4);
 #btnLink 
     border none !important
-    
+
+// Home Component
+#home 
+    background-image: url('../img/oregon.jpeg')
+    height: 500px;
+    text-align: center;
+    // display flex
+    // justify-content: center
+    h1 
+        margin auto
+        color white
+        font-family: sansFont;
+    h2 
+        font-family: dancFont;
+        color white
+        font-size: 48px
+        text-shadow: 4px 4px 4px #aaa
+.overlay
+    height 200px
+    width 100% 
+    background-color rgba(0,0,0, 0.7)
     
     
   

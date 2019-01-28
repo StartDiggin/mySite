@@ -1,8 +1,10 @@
+body {
+  background-image: url("../img/lights.jpg");
+}
 #header {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  border: 1px #000 solid;
-  background-color: #75122b;
+  background-color: #333940;
 }
 #header nav {
   display: flex;
@@ -62,4 +64,25 @@ nav a:hover {
 }
 #btnLink {
   border: none !important;
+}
+#home {
+  background-image: url("../img/oregon.jpeg");
+  height: 500px;
+  text-align: center;
+}
+#home h1 {
+  margin: auto;
+  color: #fff;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+#home h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.overlay {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
 }
